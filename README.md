@@ -1,5 +1,7 @@
 # Mixed-Signal-FPGA
 
+![osfpaga](https://user-images.githubusercontent.com/92947276/171219226-001ae8e9-1cf8-4a70-824c-a05ca0994358.png)
+
 # Overview
 
 This workshop is a continuation of the RVMYTH RISC-V core. Once we have made the RISC-V core, we will now implement it on an FPGA and test its functionality. This workshop aims to teach the following:
