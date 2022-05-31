@@ -80,9 +80,17 @@ This workshop is a continuation of the RVMYTH RISC-V core. Once we have made the
 
 - To add the Xilinx PLL, we will add an existing IP from the IP catalog.
 - Different parameters like clock period can be changed in the menu.
-- When adding the ILA, mention the number of probes as specified in the design and keep the sample data depth maximum in order to view a clear waveform.
+- When adding the ILA (as a waveform viewer), mention the number of probes as specified in the design and keep the sample data depth maximum in order to view a clear waveform.
 - Specify the width of the probes. Here is a side by side comparison of the code and IP menu:
 
-![probe width](https://user-images.githubusercontent.com/92947276/171194385-1498789d-0349-44a3-a813-2abb8a83e447.PNG)
+![probe width](https://user-images.githubusercontent.com/92947276/171195181-e26d3189-e263-4de3-a7c7-bec499d92904.PNG)
+
+## RTL Simulation
+
+- For simulation we need to add a testbench.
+- To add testbench select 'add simulation sources' and select the testbench file. This is our testbench file:
+
+![top soc tb](https://user-images.githubusercontent.com/92947276/171196918-f1b0f45b-90fd-40ef-9de3-a53d40523203.PNG)
+
 
 
