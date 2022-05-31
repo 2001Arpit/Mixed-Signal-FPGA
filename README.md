@@ -27,7 +27,7 @@ This workshop is a continuation of the RVMYTH RISC-V core. Once we have made the
 - [RTL Simulation](#RTL-Simulation)
 - [Design Constraints](#Design-Constraints)
 - [Bit Stream Generation](#Bit-Stream-Generation)
-- [Acknowledgements](#Acknowledgements)
+## [Acknowledgements](#Acknowledgements)
 
 ## Mixed Signal SOC
 
