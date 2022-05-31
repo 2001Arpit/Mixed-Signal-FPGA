@@ -75,4 +75,14 @@ This workshop is a continuation of the RVMYTH RISC-V core. Once we have made the
 - Select the Board which you will be using.
 - Once the project is created, you can add constraints, design sources and simulation sources.
 - For the design sources add the Verilog files.
--  
+
+## IP Generation
+
+- To add the Xilinx PLL, we will add an existing IP from the IP catalog.
+- Different parameters like clock period can be changed in the menu.
+- When adding the ILA, mention the number of probes as specified in the design and keep the sample data depth maximum in order to view a clear waveform.
+- Specify the width of the probes. Here is a side by side comparison of the code and IP menu:
+
+![probe width](https://user-images.githubusercontent.com/92947276/171194385-1498789d-0349-44a3-a813-2abb8a83e447.PNG)
+
+
