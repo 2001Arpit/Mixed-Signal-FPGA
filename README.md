@@ -12,4 +12,10 @@ This workshop is a continuation of the RVMYTH RISC-V core. Once we have made the
 - False paths and true paths
 - FPGA programming
 
+# Table of Contents
 
+- [Introduction](#introduction)
+
+
+
+# Introduction
