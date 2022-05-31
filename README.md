@@ -15,7 +15,7 @@ This workshop is a continuation of the RVMYTH RISC-V core. Once we have made the
 # Table of Contents
 ## Introduction
 - [PLL (Phase-locked loop)](#pll-phase-locked-loop)
-- [Transaction-Level Verilog](Transaction-Level-Verilog)
+- [Transaction-Level Verilog](#transaction-level-verilog)
 
 
 # Introduction
