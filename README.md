@@ -104,7 +104,7 @@ This workshop is a continuation of the RVMYTH RISC-V core. Once we have made the
 
 - We can compare this result to the waveform obtained by gtkwave.
 
-## Timing Constraints
+## Design Constraints
 
 - Our design might seem to be working completely fine in simulation, but in reality, we have to follow multiple timing constraints for the design to work in hardware.
 - The vendors usually provide these constraints. Designs that do not follow these constraints cause setup/hold violations. These violations result in metastability (uncertainty) in the output. Here is what the constraint file looks like:
@@ -136,6 +136,16 @@ This workshop is a continuation of the RVMYTH RISC-V core. Once we have made the
 - `set_false_path -hold -from [get_pins uut1/inst/plle2_adv_inst/CLKOUT0] to [get_pins uut3/isnt/ila_core_inst/*/D]` 
 - `set_false_path -hold -from [get_pins uut1/inst/plle2_adv_inst/CLKOUT0] to [get_pins uut3/isnt/ila_core_inst/u_trig/U_TM/N_DDR_MODE.g_NMU[2].U_M/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/*/D]`
 
+- After saving the constraints file rerun synthesis and implementation.
 
+![implementation success](https://user-images.githubusercontent.com/92947276/171211578-47992e78-1a34-49c7-8f8e-528c62830119.PNG)
 
+- We can see that there are no timing erros now.
 
+![no violation](https://user-images.githubusercontent.com/92947276/171211746-e0304424-df18-4de4-be98-1a07e62a1b32.PNG)
+
+## Bit Stream Generation
+
+- A bitstream includes the description of the hardware logic, routing, and initial values for both registers and on-chip memory (e.g., LUT).
+- We generate the bitstream by clicking on the 'Generate Bitstream' option under 'Program and Debug'.
+- We will now upload this onto our FPGA.
