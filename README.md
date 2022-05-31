@@ -69,4 +69,10 @@ This workshop is a continuation of the RVMYTH RISC-V core. Once we have made the
 
 - The above waveform can be obtained by changing the output type to analog.
 
+## Vivado
 
+- Create a new project in Vivado.
+- Select the Board which you will be using.
+- Once the project is created, you can add constraints, design sources and simulation sources.
+- For the design sources add the Verilog files.
+-  
