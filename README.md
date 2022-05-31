@@ -133,8 +133,8 @@ This workshop is a continuation of the RVMYTH RISC-V core. Once we have made the
 ![true paths falls path](https://user-images.githubusercontent.com/92947276/171208588-9b74ee8f-c868-41d5-af0a-89c720b459c1.PNG)
 
 - To remove them, we will add false path constraints to our constraint file:
-  - `set_false_path -hold -from [get_pins uut1/inst/plle2_adv_inst/CLKOUT0] to [get_pins uut3/isnt/ila_core_inst/*/D]` 
-  - `set_false_path -hold -from [get_pins uut1/inst/plle2_adv_inst/CLKOUT0] to [get_pins uut3/isnt/ila_core_inst/u_trig/U_TM/N_DDR_MODE.g_NMU[2].U_M/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/*/D]`
+- `set_false_path -hold -from [get_pins uut1/inst/plle2_adv_inst/CLKOUT0] to [get_pins uut3/isnt/ila_core_inst/*/D]` 
+- `set_false_path -hold -from [get_pins uut1/inst/plle2_adv_inst/CLKOUT0] to [get_pins uut3/isnt/ila_core_inst/u_trig/U_TM/N_DDR_MODE.g_NMU[2].U_M/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/*/D]`
 
 
 
