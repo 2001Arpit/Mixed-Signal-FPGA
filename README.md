@@ -49,3 +49,10 @@ This workshop is a continuation of the RVMYTH RISC-V core. Once we have made the
 
 - To convert the file type, we will use Sandpiper SaaS.
 - It is developed by Redwood EDA. SandPiper is a code generator that helps you write Verilog or SystemVerilog code from TL-Verilog.
+- Here is how the two files (.v and .tlv) look side by side.
+
+![v vs tlv](https://user-images.githubusercontent.com/92947276/171103574-b54d7228-0c23-45f9-b7bf-dff8622a6d82.PNG)
+
+- It is a comparision between the same part of the code.
+
+
