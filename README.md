@@ -14,7 +14,7 @@ This workshop is a continuation of the RVMYTH RISC-V core. Once we have made the
 
 # Table of Contents
 
-- [PLL (Phase-locked loop)](#PLL-(Phase-locked-loop))
+- [PLL (Phase-locked loop)](#pll-(phase-locked-loop))
 
 
 
