@@ -106,9 +106,36 @@ This workshop is a continuation of the RVMYTH RISC-V core. Once we have made the
 
 ## Timing Constraints
 
-- Our design might seem to be working completely fine in simulation, but in reality we have to follow multiple timing constraints for the design to work in hardware.
-- These constraints are usually provided by the vendors. Designs that do not follow these constraints cause setup/hold violations. These violations result in metastability (uncertainity) in the output. Here is what the constraint file looks like:
+- Our design might seem to be working completely fine in simulation, but in reality, we have to follow multiple timing constraints for the design to work in hardware.
+- The vendors usually provide these constraints. Designs that do not follow these constraints cause setup/hold violations. These violations result in metastability (uncertainty) in the output. Here is what the constraint file looks like:
 
 ![constraint file clock](https://user-images.githubusercontent.com/92947276/171201786-28a8a1a1-b655-4b88-8958-74f5bf3fe30e.PNG)
+
+- Add the constraints file to the project by selecting the 'add constraints' option. Then, you can choose the constraint file you want to insert from there.
+- Synthesise the design, then move to implementation.
+- After implementation, we see the following message:
+
+![implementation](https://user-images.githubusercontent.com/92947276/171203846-039eb5fc-c147-4db5-b3c5-54ea49f827ef.PNG)
+
+- We can see that the design does not meet the constraints provided.
+- After opening the implemented design, we can see the timing report:
+
+![timing report](https://user-images.githubusercontent.com/92947276/171206476-470e8c37-a066-4a32-8baa-4011a25695e8.PNG)
+
+- For any design to meet the timing constraints, it needs to have a positive slack. We can see that the hold slack is negative. This means that the design has hold time violations.
+- By clicking on the negative slack, we can view the failing paths (paths causing this violation).- We can see that the design does not meet the constraints provided.
+- After opening the implemented design, we can see the timing report:
+
+![failed path details](https://user-images.githubusercontent.com/92947276/171208079-18d8916b-670e-4000-a4e6-501cc19599fa.PNG)
+
+- We can see that source and destination of these failing paths. These are known as false paths because we dont need them in our design:
+
+![true paths falls path](https://user-images.githubusercontent.com/92947276/171208588-9b74ee8f-c868-41d5-af0a-89c720b459c1.PNG)
+
+- To remove them, we will add false path constraints to our constraint file:
+  - `set_false_path -hold -from [get_pins uut1/inst/plle2_adv_inst/CLKOUT0] to [get_pins uut3/isnt/ila_core_inst/*/D]` 
+  - `set_false_path -hold -from [get_pins uut1/inst/plle2_adv_inst/CLKOUT0] to [get_pins uut3/isnt/ila_core_inst/u_trig/U_TM/N_DDR_MODE.g_NMU[2].U_M/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/*/D]`
+
+
 
 
