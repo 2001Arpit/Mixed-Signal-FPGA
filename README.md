@@ -92,5 +92,9 @@ This workshop is a continuation of the RVMYTH RISC-V core. Once we have made the
 
 ![top soc tb](https://user-images.githubusercontent.com/92947276/171196918-f1b0f45b-90fd-40ef-9de3-a53d40523203.PNG)
 
+- Click on 'Run Simulation', this will open the waveform viewer.
+- Add the core clock to compare the input clock to the PLL and the recieved clock to the RISC-V core.
 
+![ila result](https://user-images.githubusercontent.com/92947276/171198165-fa213cef-52be-4387-bce7-cf219a197d6e.PNG)
 
+- From the above waveform we calculate the clock frequencies. 
