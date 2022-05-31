@@ -58,4 +58,15 @@ This workshop is a continuation of the RVMYTH RISC-V core. Once we have made the
 
 ## Icarus Verilog Simulation
 
-- To check the funtionalty of our design we will be using Icarus Verilog for simulation.
+- To check the funtionalty of our design we will be using Icarus Verilog for simulation. We will simulate the PLL by using the following commands:
+  - `iverilog rvmyth_pll_tb.v rvmyth_pll.v clk_gate.v`
+  - `./a.out`
+  - `gtkwave rvmyth_pll.vcd`
+
+![gtk1](https://user-images.githubusercontent.com/92947276/171110958-5e9347a0-d925-4d75-a832-8ac7e8847a3d.PNG)
+
+![gtk2](https://user-images.githubusercontent.com/92947276/171110995-2c620093-e179-4688-a6e2-65292576150a.PNG)
+
+- The above waveform can be obtained by changing the output type to analog.
+
+
