@@ -1,7 +1,7 @@
 # Mixed-Signal-FPGA
 
 <p align="center">
-  <img width="600" height="200" src="![osfpaga](https://user-images.githubusercontent.com/92947276/171220959-b05e6288-1bb7-4d64-bc92-a7759594e41b.png)">
+  <![osfpaga](https://user-images.githubusercontent.com/92947276/171221176-b85ca607-eeb5-4c9b-b473-458a005348ae.png)>
 </p>
 
 # Overview
