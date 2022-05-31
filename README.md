@@ -40,7 +40,8 @@ This workshop is a continuation of the RVMYTH RISC-V core. Once we have made the
 
 ## FPGAs
 
-- FPGA stands for Field Programmable Gate Array. We can dump our designs and check their functionality on a real chip using FPGAs. They are reconfigarable, meaning we can reprogram the device multiple times to test different designs.
-- Compared to ASICs (Application specific Integrated Circuits), time taken to design a SOC on FPGA is significantly less.
+- FPGA stands for Field Programmable Gate Array. We can dump our designs and check their functionality on an actual chip using FPGAs. In addition, they are reconfigurable, meaning we can reprogram the device multiple times to test different designs.
+- Compared to ASICs (Application-specific Integrated Circuits), the time taken to design a SOC on FPGA is significantly less.
 - ASICs cannot be reconfigured and are very expensive to manufacture. It might require a respin if there is a fault in the design.
-- This price is compensated by their speed, since FPGAs are generally slower.
+- This price is compensated by their speed since FPGAs are generally slower.
+
