@@ -14,7 +14,7 @@ This workshop is a continuation of the RVMYTH RISC-V core. Once we have made the
 
 # Table of Contents
 
-- [Introduction](#introduction)
+- [PLL (Phase-locked loop)](#PLL (Phase-locked loop))
 
 
 
@@ -150,7 +150,7 @@ This workshop is a continuation of the RVMYTH RISC-V core. Once we have made the
 - We generate the bitstream by clicking on the 'Generate Bitstream' option under 'Program and Debug'.
 - We will now upload this onto our FPGA.
 
-# Acknowledgements
+## Acknowledgements
 - [Kunal Ghosh](https://github.com/kunalg123), Co-founder, VSD Corp. Pvt. Ltd. 
 - [Steve Hoover](https://github.com/stevehoover), Founder, Redwood EDA                                   
 - [Shivani Shah](https://github.com/shivanishah269), TA                                
