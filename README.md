@@ -14,12 +14,20 @@ This workshop is a continuation of the RVMYTH RISC-V core. Once we have made the
 
 # Table of Contents
 ## Introduction
+- [Mixed Signal SOC](#Mixed-Signal-SOC)
 - [PLL (Phase-locked loop)](#pll-phase-locked-loop)
 - [Transaction-Level Verilog](#transaction-level-verilog)
 - [FPGAs](#FPGAs)
+- [Converting TL-Verilog to Verilog](#Converting-TL-Verilog-to-Verilog)
+- [Icarus Verilog Simulation](#Icarus-Verilog-Simulation)
+- [Vivado](#Vivado)
+- [IP Generation](#IP-Generation)
+- [RTL Simulation](#RTL-Simulation)
+- [Design Constraints](#Design-Constraints)
+- [Bit Stream Generation](#Bit-Stream-Generation)
+- [Acknowledgements](#Acknowledgements)
 
-
-# Introduction
+## Mixed Signal SOC
 
 - A mixed-signal SOC refers to a chip with both analog and digital IP. Here the digital IP is the RISC-V core we designed previously, and the analog IP is a PLL designed by VSD. Note that this PLL is only a functional model and cannot be synthesized since it uses constructs like 'initial block'.
 - For implementation on FPGA we will use an analog IP provided by Xilinx on Vivado.
