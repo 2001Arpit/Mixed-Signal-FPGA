@@ -104,3 +104,11 @@ This workshop is a continuation of the RVMYTH RISC-V core. Once we have made the
 
 - We can compare this result to the waveform obtained by gtkwave.
 
+## Timing Constraints
+
+- Our design might seem to be working completely fine in simulation, but in reality we have to follow multiple timing constraints for the design to work in hardware.
+- These constraints are usually provided by the vendors. Designs that do not follow these constraints cause setup/hold violations. These violations result in metastability (uncertainity) in the output. Here is what the constraint file looks like:
+
+![constraint file clock](https://user-images.githubusercontent.com/92947276/171201786-28a8a1a1-b655-4b88-8958-74f5bf3fe30e.PNG)
+
+
