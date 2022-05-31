@@ -2,10 +2,7 @@
 
 <p align="center">
   <img 
-    width="300"
-    height="300"
-    src="![osfpaga](https://user-images.githubusercontent.com/92947276/171219565-a889f9e4-c2e8-43fa-b461-11b03f7297df.png)
-"
+    src="![osfpaga](https://user-images.githubusercontent.com/92947276/171219565-a889f9e4-c2e8-43fa-b461-11b03f7297df.png)"
   >
 </p>
 
