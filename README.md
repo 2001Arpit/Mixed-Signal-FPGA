@@ -19,3 +19,5 @@ This workshop is a continuation of the RVMYTH RISC-V core. Once we have made the
 
 
 # Introduction
+
+A mixed-signal SOC refers to a chip with both analog and digital IP. Here the digital IP is the RISC-V core we designed previously, and the analog IP is a PLL designed by VSD. Note that this PLL is only a functional model and cannot be synthesized since it uses constructs like 'initial block'.
