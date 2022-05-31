@@ -18,8 +18,10 @@ This workshop is a continuation of the RVMYTH RISC-V core. Once we have made the
 - [PLL (Phase-locked loop)](#pll-phase-locked-loop)
 - [Transaction-Level Verilog](#transaction-level-verilog)
 - [FPGAs](#FPGAs)
+## Converting file and Simulation
 - [Converting TL-Verilog to Verilog](#Converting-TL-Verilog-to-Verilog)
 - [Icarus Verilog Simulation](#Icarus-Verilog-Simulation)
+## Using Vivado
 - [Vivado](#Vivado)
 - [IP Generation](#IP-Generation)
 - [RTL Simulation](#RTL-Simulation)
