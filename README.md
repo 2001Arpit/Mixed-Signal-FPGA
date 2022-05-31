@@ -10,3 +10,6 @@ This workshop is a continuation of the RVMYTH RISC-V core. Once we have made the
 - Adding timing constraints
 - Performing timing analysis
 - False paths and true paths
+- FPGA programming
+
+
