@@ -98,3 +98,9 @@ This workshop is a continuation of the RVMYTH RISC-V core. Once we have made the
 ![ila result](https://user-images.githubusercontent.com/92947276/171198165-fa213cef-52be-4387-bce7-cf219a197d6e.PNG)
 
 - From the above waveform we calculate the clock frequencies. 
+- To view the analog waveform change the waveform type to analog.
+
+![ila result analog](https://user-images.githubusercontent.com/92947276/171198732-0c60dc12-f4d1-441d-b891-a0a13d543da5.PNG)
+
+- We can compare this result to the waveform obtained by gtkwave.
+
