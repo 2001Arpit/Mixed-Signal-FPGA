@@ -56,4 +56,6 @@ This workshop is a continuation of the RVMYTH RISC-V core. Once we have made the
 
 - It is a comparision between the same part of the code.
 
+## Icarus Verilog Simulation
 
+- To check the funtionalty of our design we will be using Icarus Verilog for simulation.
